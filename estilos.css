@@ -1,3 +1,4 @@
+/*Ponemos los estilos que queremos que tenga la tabla, en este caso la linea, el margen y centrado.*/
 table,td,tr {
 
     border: 1.5px solid black;
@@ -5,18 +6,18 @@ table,td,tr {
     align-items: center;
     margin: auto;
 }
-
+/*Le ponemos color al texto h2, en este caso magenta oscuro, ponemos texto en negrita y centrado.*/
 h2 {
     color: darkmagenta;
     font-weight: bold;
     text-align: center;
 }
-
+/*Le ponemos color al titulo de la tabla y lo centramos*/
 caption {
     color: rgb(4, 48, 180);
     text-align: center;
 }
-
+/*Pintamos de gris el fondo de la primera linea con "background y le damos estilo al borde*/
 th {
     background-color: gray;
     border: 1.5px solid black;
